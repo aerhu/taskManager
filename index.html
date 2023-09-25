@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Task Manager</h1>
+    <div id="task-input">
+        <input type="text" id="task-name" placeholder="Task Name">
+        <input type="date" id="due-date">
+        <select name="priority" id="priority">
+            <option value="" disabled selected hidden>--</option>
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="High">High</option>
+        </select>
+        <button id="add-task">Add Task</button>
+    </div>
+    <div id="task-list">
+        <!-- Tasks will be displayed here -->
+    </div>
+    <script src="taskManager.js"></script>
+</body>
+</html>
